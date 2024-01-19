@@ -531,6 +531,7 @@ footer1 {
     color: #ee0b0b;
 }
 
+/* social icons */
 .social-icons {
     list-style: none;
     display: flex;
@@ -684,6 +685,7 @@ section.wildlife {
     margin-bottom: 10px;
 }
 
+/* table css */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -824,6 +826,7 @@ body {
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
+    /* Added transition for the rotation effect */
     cursor: pointer;
     padding: 10px;
 }
@@ -1034,8 +1037,8 @@ body {
     font-family: 'Helvetica', sans-serif;
     z-index: 2;
     opacity: 0;
-    /* Initial opacity for the fade-in effect */
     animation: fadeIn 1s ease-in-out forwards;
+    /*  fade-in effect */
     font-family: 'Montserrat', sans-serif;
     background-color: #032c15;
 }

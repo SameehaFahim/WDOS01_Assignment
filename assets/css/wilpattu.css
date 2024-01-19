@@ -208,7 +208,7 @@ body {
     background-color: #a9e6b3;
 }
 
-/* Styles for the overall container */
+/* Styles-overall container */
 .park-introduction {
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ body {
     animation: fadeIn 1s ease-out;
 }
 
-/* Styles for the separator line */
+/* Styles-separator line */
 .park-introduction:before {
     content: '';
     display: block;
